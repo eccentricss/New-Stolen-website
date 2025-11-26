@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3f79db 0%, #030006 100%);
     min-height: 100vh;
     padding: 20px;
     line-height: 1.6;
@@ -72,7 +72,7 @@ body {
 }
 
 .badge {
-    background: #667eea;
+    background: #a19ca3;
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
@@ -100,4 +100,5 @@ body {
     .assignment-card {
         padding: 20px;
     }
+
 }
