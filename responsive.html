@@ -20,6 +20,24 @@
             margin-top: 0%;
         
         }
+
+        .Youtube_container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000000;
+            border-radius: 15px;
+        }
+        .Youtube{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
@@ -41,10 +59,10 @@
         
         <div class="code-block">
             <p class="Video_Title">Short Video we made</p>
-            <video width="100%" height="80%" controls>
-                <source src="TASK03 GRP 3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <div class="Youtube_container">
+                 <iframe class="Youtube" width="560" height="315" src="https://www.youtube.com/embed/h0MVteEw1f4?si=o63unuaZ-YwKkrza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+           
 
         </div>
     </div>
@@ -67,6 +85,7 @@
         
 
     </div>
+
 
 
 
